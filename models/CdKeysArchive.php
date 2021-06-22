@@ -15,6 +15,8 @@ class CdKeysArchive extends ObjectModel
     public $id_cdkey_used;
     public $id_order;
     public $code;
+    //add
+    public $cdkeypwd;
     public $id_cdkey_group;
     public $name;
     public $product;
@@ -35,6 +37,8 @@ class CdKeysArchive extends ObjectModel
             'id_order' => array('type' => ObjectModel :: TYPE_INT),
             'id_cdkey_group' => array('type' => ObjectModel :: TYPE_INT),
             'code' => array('type' => ObjectModel :: TYPE_STRING),
+            //add
+            'cdkeypwd' => array('type' => ObjectModel::TYPE_STRING),
             'name' => array('type' => ObjectModel :: TYPE_STRING),
             'product' => array('type' => ObjectModel :: TYPE_STRING),
             'customer' => array('type' => ObjectModel :: TYPE_STRING),
