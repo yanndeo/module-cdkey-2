@@ -15,6 +15,8 @@ class CdKeysList extends ObjectModel
     public $id_cdkey;
     public $id_cdkey_group;
     public $code;
+    //add
+    public $cdkeypwd;
     public $active;
     public static $definition = array(
         'table' => 'cdkey',
@@ -24,6 +26,8 @@ class CdKeysList extends ObjectModel
             'id_cdkey' => array('type' => ObjectModel :: TYPE_INT),
             'id_cdkey_group' => array('type' => ObjectModel :: TYPE_INT),
             'code' => array('type' => ObjectModel :: TYPE_STRING),
+            //add
+            'cdkeypwd' => array('type' => ObjectModel::TYPE_STRING),
             'active' => array('type' => ObjectModel :: TYPE_INT),
         ),
     );
