@@ -56,6 +56,11 @@ class AdminCdKeysListController extends ModuleAdminController
                 'width' => 'auto',
                 'orderby' => true,
             ),
+            'cdkeypwd' => array(
+                'title' => $this->l('Cdkeypwd'),
+                'width' => 'auto',
+                'orderby' => true,
+            ),
             'active' => array(
                 'title' => $this->l('Active'),
                 'width' => 50,
@@ -141,6 +146,14 @@ class AdminCdKeysListController extends ModuleAdminController
                     'desc' => $this->l('Add one code or list of codes (each code in new line like example below)').'<br/>2DFE-QD443-VTD96-BJQYK-7XMP2<br/>12D32-QN3VT-XP4XT-KTY4V-MBH22<br/>5GF22-NV2YT-QVPMF-8HYD7-JQKTP<br/>XYAS4-W6PC7-BJRFW-42M4Q-GF4C2<br/>',
                 ),
                 array(
+                    'type' => 'textarea',
+                    'label' => $this->l('Cdkeypwd:'),
+                    'name' => 'cdkeypwd',
+                    'required' => true,
+                    'lang' => false,
+                    'desc' => $this->l('Add one password or list of passwords (each password in new line like example below)') . '<br/>',
+                ),
+                array(
                     'type' => 'select',
                     'label' => $this->l('Group'),
                     'name' => 'id_cdkey_group',
@@ -182,15 +195,23 @@ class AdminCdKeysListController extends ModuleAdminController
 
     public function processAdd()
     {
-        foreach (explode("\n", $_POST['code']) as $code)
-        {
-            if (strlen($code) > 0 && trim($code) != '')
-            {
+        //meth. changed to add multiple code
+        $data = $_POST;
+        //string => array from input fields
+        $array_codekeys = (explode("\n", $data['code']));
+        $array_password = (explode("\n", $data['cdkeypwd']));
+        if (count($array_codekeys) !== count($array_password)) {
+            //Length of list of codes must be correspond with length of password
+            throw new \logicException("input fields must be have same length");
+        } else {
+            for ($i = 0; $i < count($array_codekeys); $i++) {
                 $cdkey = new CdKeysList();
-                $cdkey->code = trim($code);
+                $cdkey->code = trim($array_codekeys[$i]);
+                $cdkey->cdkeypwd = trim($array_password[$i]);
                 $cdkey->active = Tools::getValue('active');
                 $cdkey->id_cdkey_group = Tools::getValue('id_cdkey_group');
                 $cdkey->add();
+
             }
         }
         //$object = parent::processAdd();
