@@ -56,6 +56,7 @@ class AdminCdKeysListController extends ModuleAdminController
                 'width' => 'auto',
                 'orderby' => true,
             ),
+            //add
             'cdkeypwd' => array(
                 'title' => $this->l('Cdkeypwd'),
                 'width' => 'auto',
@@ -200,6 +201,7 @@ class AdminCdKeysListController extends ModuleAdminController
         //string => array from input fields
         $array_codekeys = (explode("\n", $data['code']));
         $array_password = (explode("\n", $data['cdkeypwd']));
+
         if (count($array_codekeys) !== count($array_password)) {
             //Length of list of codes must be correspond with length of password
             throw new \logicException("input fields must be have same length");

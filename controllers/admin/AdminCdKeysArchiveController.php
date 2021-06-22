@@ -44,6 +44,12 @@ class AdminCdKeysArchiveController extends ModuleAdminController
                 'width' => 'auto',
                 'orderby' => true,
             ),
+            //add
+            'cdkeypwd' => array(
+                'title' => $this->l('Cdkeypwd'),
+                'width' => 'auto',
+                'orderby' => true,
+            ),
             'id_order' => array(
                 'title' => $this->l('Order ID'),
                 'width' => 'auto',
@@ -150,6 +156,14 @@ class AdminCdKeysArchiveController extends ModuleAdminController
                     'required' => true,
                     'lang' => false,
                 ),
+                //add
+                array(
+                    'type' => 'text',
+                    'label' => $this->l('Cdkeypwd:'),
+                    'name' => 'cdkeypwd',
+                    'required' => true,
+                    'lang' => false,
+                ),
                 array(
                     'type' => 'text',
                     'label' => $this->l('ID of cdkeys group'),
@@ -220,9 +234,14 @@ class AdminCdKeysArchiveController extends ModuleAdminController
                 $id_shop = $this->context->shop->id;
                 $cdkeyGroup = new CdKeysGroup($CdKeyArchive->id_cdkey_group, $order->id_lang, $id_shop);
                 $code['code'] = $CdKeyArchive->code;
+                //add
+                $code['cdkeypwd'] = $CdKeyArchive->cdkeypwd;
+
                 $templateVars['{firstname}'] = $customer->firstname;
                 $templateVars['{lastname}'] = $customer->lastname;
                 $templateVars['{code}'] = $code['code'];
+                //add
+                $templateVars['{cdkeypwd}'] = $code['cdkeypwd'];
                 $templateVars['{product}'] = $CdKeyArchive->product;
                 $templateVars['{group_url}'] = $cdkeyGroup->url;
                 $templateVars['{group_desc}'] = $cdkeyGroup->group_desc;
