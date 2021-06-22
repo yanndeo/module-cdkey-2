@@ -1,0 +1,11 @@
+Bonjour {firstname} {lastname},
+
+Merci d'avoir choisi notre service dans notre boutique {shop_name}
+Voici le code que vous avez acheté récemment.
+
+-----------------------------
+Votre code d'abonnement pour {code} pour {product}
+-----------------------------
+
+
+{shop_url}

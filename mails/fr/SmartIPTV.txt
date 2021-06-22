@@ -1,0 +1,10 @@
+Bonjour {firstname} {lastname},
+
+
+
+Votre fichier m3u 
+
+{code}
+
+Cordialement
+

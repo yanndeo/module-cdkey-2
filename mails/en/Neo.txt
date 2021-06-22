@@ -1,0 +1,33 @@
+Hello {firstname} {lastname},
+
+We are happy to have you as a customer and thank you very much for choosing {shop_name} for the purchase of {product} subscription.
+
+Please find your subscription information below.
+THIS CODE IS STRICTLY CONFIDENTIAL AND SHOULD NOT BE DISCLOSED TO THIRD PARTIES
+
+------------ | CODE | -------------------
+{code}
+------------ | M3U file | -------------------
+
+http://neotv.siptv-list.com/siptv.m3u?code={code}
+
+------------ | XTREAM CODE | -------------------
+
+Server Link: http://xtream.ddn1.tn:80
+Login (Username): {code}
+Password: {code}
+
+------------ | MAG PORTAL | -------------------
+http://mag.neoiptv.biz/portal/c/
+
+Please send us the MAC address of your box 00: 1A: XX: XX: XX
+
+------------ | Application | -------------------
+NEOTVPRO: https://www.app-iptv.com/neoTVpro2-release.apk
+NEOX: http://mobile.app-iptv.com/NeoX.apk
+iOS: http: //mobile.app-iptv.com/neotv.html
+
+We thank you for your continued confidence and hope that we can continue to meet your needs.
+
+Regards,
+Customer service

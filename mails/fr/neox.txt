@@ -1,0 +1,33 @@
+Bonjour {firstname} {lastname} ,
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi {shop_name} pour l’achat d'abonnement {product} . 
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS 
+
+------------|CODE|-------------------
+{code} 
+------------|Fichier M3U |-------------------
+
+http://neotv.siptv-list.com/siptv.m3u?code={code}
+
+------------|XTREAM CODE |-------------------
+
+Server Link : http://xtream.ddn1.tn:80
+Login(Nom d'utilisateur) : {code}
+Password (Mot de passe):{code}
+
+------------|MAG PORTAL |-------------------
+http://mag.neoiptv.biz/portal/c/
+
+Prière de nous envoyer l'adresse MAC de votre boîtier 00:1A:XX:XX:XX
+
+------------|Application |-------------------
+NEOTVPRO : https://www.app-iptv.com/neoTVpro2-release.apk
+NEOX : http://mobile.app-iptv.com/NeoX.apk
+iOS:http://mobile.app-iptv.com/neotv.html
+
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins.
+
+Cordialement,
+Service Clients

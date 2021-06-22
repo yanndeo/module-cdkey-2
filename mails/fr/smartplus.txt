@@ -1,0 +1,44 @@
+Bonjour {firstname} {lastname} ,
+
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi HDRIPTV.COM pour l’achat d'abonnement {product} . 
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS 
+
+------------|CODE|-------------------
+{code} 
+
+------------|Fichier M3U |-------------------
+http://smart.siptv-list.com/siptv.m3u?code={code}
+
+------------|XTREAM CODE |-------------------
+
+Server Link : http://xtream.ddn1.tn:80
+Login(Nom d'utilisateur) : {code}
+Password (Mot de passe):{code}
+
+------------|MAG PORTAL |-------------------
+
+http://smart.mag-portal.pro/portal/c/
+
+Prière de nous envoyer l'adresse MAC de votre boitier 00:1A:XX:XX:XX
+
+------------|Application |-------------------
+
+SMART PRO : http://www.vision.co.ma/Application/SmartTv.apk
+SMART X : http://www.vision.co.ma/Application/SmartX.apk
+iOS: http://mobile.app-iptv.com/neotv.html
+
+    Liste des chaînes : https://hdriptv.com/content/10-smart-plus-iptv
+
+    Téléchargement: https://hdriptv.com/content/6-telechargement
+
+    F.A.Q:https://hdriptv.com/faqs
+
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins.
+
+
+Cordialement,
+Service Clients
++212630784841

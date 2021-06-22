@@ -1,0 +1,29 @@
+Bonjour {firstname} {lastname} ,
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi IPTV366 pour l’achat de {product}.
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+
+
+
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS
+
+
+
+----------------|CODE |----------------
+
+{code}
+
+----------------------------------------
+
+
+
+Guide d'activation : https://wiki.iptv366.com/docs/activation-duplexiptv/
+
+
+
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins.
+
+Cordialement,
+
+Service Clients

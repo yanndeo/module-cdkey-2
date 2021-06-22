@@ -1,0 +1,20 @@
+Bonjour {firstname} {lastname} ,
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi {shop_url} pour l’achat d'abonnement {product} . 
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS 
+
+------------|CODE|-------------------
+{code} 
+
+------------|Script|-------------------
+
+BLACKHOLE:http://bit.ly/blac366
+
+OPENPLI:http://bit.ly/openpli366
+
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins.
+
+Cordialement,
+Service Clients

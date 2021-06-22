@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>cdkeys</name>
+    <displayName><![CDATA[Cd-Keys / license module]]></displayName>
+    <version><![CDATA[2.3.2]]></version>
+    <description><![CDATA[With this module you can sell cd-keys / license codes. Addon will send cd keys to customers right after order of the cd-key/license product.]]></description>
+    <author><![CDATA[MyPresta.eu]]></author>
+    <tab><![CDATA[advertising_marketing]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

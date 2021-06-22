@@ -1,0 +1,29 @@
+Bonjour {firstname} {lastname} ,
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi IPTV366 pour l’achat de {product}.
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS
+
+
+
+----------------|CODE |------------------------
+
+{code}
+
+--------------------------------------------------
+
+---|Prière d'insérer le code dans l'application avant de télécharger le fichier M3U|------
+
+Live:http://api.ndasat.com/iptv/m3u.php?username={code}&password={code}
+
+VOD: http://api.ndasat.com/iptv/vod.php?username={code}&password={code}
+
+------------| Application |-----------------------
+
+http://up.panel.cx/Android/IPTV-OTT-V2-CODE.apk
+
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins. Cordialement,
+
+Service Clients

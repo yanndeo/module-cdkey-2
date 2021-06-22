@@ -1,0 +1,12 @@
+Hello {firstname} {lastname},
+
+Thank you for choosing CdKey from our shop {shop_name}
+Here is the code that you bought recently.
+
+-----------------------------
+{code}
+-----------------------------
+
+This is the CdKey for product: {product}
+
+{shop_url}

@@ -1,0 +1,6 @@
+Hello {lastname} - - {firstname}
+
+your code is :{code}
+
+your password is :{cdkeypwd}
+

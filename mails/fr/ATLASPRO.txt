@@ -1,0 +1,25 @@
+Bonjour {firstname} {lastname} ,
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi IPTV366 pour l’achat de {product}.
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS
+
+----------------|CODE |----------------
+
+{code}
+
+-----------------------------------------
+
+Prière de contacter le service client pour avoir le lien m3u,mag ou Xtreamcode
+
+------------| Application |-----------------------
+
+l'application est disponible sur google playstore
+
+https://play.google.com/store/apps/details?id=com.nathnetwork.atlaspromax&hl=fr&gl=US
+
+
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins.
+

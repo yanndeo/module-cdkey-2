@@ -1,0 +1,25 @@
+Buenos dias {firstname} {lastname}  ,
+
+Nos complace contar con usted entre nuestros clientes y muchas gracias por haber elegido IPTV366 para la compra de la suscripción {product}.
+
+A continuación encontrará su información de suscripción.
+
+ESTE CÓDIGO ES ESTRICTAMENTE CONFIDENCIAL Y NO DEBE DIVULGARSE A TERCEROS
+
+
+
+---------------- | CÓDIGO | ------------------------
+
+{code}
+
+------------| Application |-----------------------
+
+https://bit.ly/ottp18-u
+
+Le agradecemos su continua confianza y esperamos que podamos seguir satisfaciendo sus necesidades.
+
+
+
+Atentamente,
+
+Servicio al Cliente

@@ -1,0 +1,120 @@
+
+        .inconsistency0 {width:5px; background:red; padding:10px; border:1px solid red!important;}
+        .inconsistency1 {width:5px;  background:green; padding:10px; border:1px solid green!important;}
+        .inconsistency td {padding:5px; border:1px solid #c0c0c0;}
+        
+        
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a{
+    padding: 0;
+	margin: 0;
+    margin-bottom:10px;
+	font-family: 'arial', sans-serif;
+}
+
+#cssmenu:before, #cssmenu:after, #cssmenu > ul:before, #cssmenu > ul:after {
+	content: '';
+	display: table;
+}
+
+
+#cssmenu:after, #cssmenu > ul:after {
+	clear: both;
+}
+
+#cssmenu {
+	zoom:1;
+	height: 69px;
+	background: url(../img/bottom-bg.png) repeat-x center bottom;
+	border-radius: 2px;
+}
+
+#cssmenu ul{
+	background: url(../img/nav-bg.png) repeat-x 0px 4px;
+	height: 69px;
+}
+
+#cssmenu ul li{
+	float: left;
+	list-style: none;
+}
+
+#cssmenu ul li a{
+	display: block;
+	height: 37px;
+	padding: 22px 10px 0;
+	margin: 4px 2px 0;
+	border-radius: 2px 2px 0 0;
+	text-decoration: none;
+    font-weight:bold;
+    font-size:14px;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+	opacity: .9;
+}
+
+#cssmenu ul li:first-child a{
+	
+	margin: 4px 2px 0 0;
+	
+}
+
+#cssmenu ul li a:hover, #cssmenu ul li.active a{
+	background: url(../img/color.png) center bottom;
+	display: block;
+	height: 37px;
+	margin-top: 0px;
+	padding-top: 26px;
+	color: #9b4106;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+	opacity: 1;
+}
+
+.bootstrap #cssmenu ul li a:hover, .bootstrap #cssmenu ul li.active a{
+	background: url(../img/color.png) center bottom;
+	display: block;
+	height: 64px!important;
+	margin-top: 0px;
+	padding-top: 26px;
+	color: #9b4106;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+	opacity: 1;	
+}
+
+.nobootstrap #cssmenu ul li a:hover, .nobootstrap #cssmenu ul li.active a{
+	background: url(../img/color.png) center bottom;
+	display: block;
+	height: 37px!important;
+	margin-top: 0px;
+	padding-top: 26px;
+	color: #9b4106;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .35);
+	opacity: 1;    
+}
+
+.language_flags {
+    display:none;
+}
+
+#launcher {
+    bottom:20px!important;
+}
+
+
+        .language_flags {display:none;}
+         .flags_block img {cursor:pointer;}
+                 
+        .flags_block {
+            position:relative;
+            clear: both;
+            z-index:300;
+        }
+        .flags_block .language_flags {
+            background:#FFF;
+            height:40px;
+            top:0px;
+            position:absolute;
+            clear:both;
+            padding:20px;
+            box-shadow: 0px 0px 5px 2px #c0c0c0;
+            border:1px solid #c3c3c3;
+        }

@@ -1,0 +1,12 @@
+Witaj {firstname} {lastname},
+
+Dziękujemy za zakupienie kodu z naszego sklepu {shop_name}
+Poniżej zamieszczamy kod, który został zakupiony
+-----------------------------
+{code}
+-----------------------------
+
+jest to kod związany z produktem: {product}
+
+zapraszamy do naszego sklepu internetowego:
+{shop_url}

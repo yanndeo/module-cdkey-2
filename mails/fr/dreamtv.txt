@@ -1,0 +1,26 @@
+Bonjour {firstname} {lastname} ,
+
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi HDRIPTV.COM pour l’achat d'abonnement {product} .
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS
+
+----------------|Code|-----------------------
+{code}
+
+----------------|M3U & XTREAMCODE|------------------------
+Cliquez ICI
+------------| Application |--------------------
+
+Android APK : https://bit.ly/dtvbl
+Android Google Playstore : https://play.google.com/store/apps/details?id=com.dreamrsl.tv
+iOS :https://apps.apple.com/us/app/id1522945620#?platform=appleTV
+
+
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins.
+
+
+Cordialement,
+Service Clients

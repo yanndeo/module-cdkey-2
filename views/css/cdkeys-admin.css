@@ -1,0 +1,19 @@
+#subtab-AdminCdKeysList i:before{
+	content: 'vpn_key';
+    font-family: 'Material Icons';
+}
+
+#subtab-AdminCdKeysGroups i:before {
+    content: 'group_work';
+    font-family: 'Material Icons';
+}
+
+#subtab-AdminCdKeysArchive i:before {
+    content: 'shopping_basket';
+    font-family: 'Material Icons';
+}
+
+#desc-cdkey-dollar i.process-icon-dollar:before{
+    font-family: 'FontAwesome';
+    content: "\f07a";
+}

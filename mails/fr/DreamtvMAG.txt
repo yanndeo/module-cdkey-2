@@ -1,0 +1,24 @@
+Bonjour {firstname} {lastname} ,
+
+
+Nous sommes heureux de vous compter parmi nos clients et nous vous remercions vivement d’avoir choisi HDRIPTV.COM pour l’achat d'abonnement {product} . 
+
+Veuillez trouver ci-dessous l'information relative à votre abonnement .
+CE CODE EST STRICTEMENT CONFIDENTIEL ET NE DOIT PAS ÊTRE DIVULGUÉ À DES TIERS 
+
+----------------|Code :{id_order}|------------------------
+{code} 
+------------|MAG PORTAL |-----------------------------------
+
+http://mag.d60.co:2082/c/
+
+Prière de nous envoyer l'adresse MAC de votre boitier 00:1A:XX:XX:XX
+
+Liste des chaines : https://hdriptv.com/content/12-dream-tv-iptv
+Téléchargement: https://hdriptv.com/content/6-telechargement
+F.A.Q:https://hdriptv.com/faqs
+Nous vous remercions de votre confiance soutenue et espérons pouvoir continuer à répondre à vos besoins.
+
+
+Cordialement,
+Service Clients
