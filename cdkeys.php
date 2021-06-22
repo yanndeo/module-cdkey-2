@@ -269,8 +269,8 @@ class cdkeys extends Module
         $engine = _MYSQL_ENGINE_;
         $statements = array();
         $statements[] = "CREATE TABLE IF NOT EXISTS `${prefix}cdkey_group` (" . '`id_cdkey_group` int(10) NOT NULL AUTO_INCREMENT,' . '`id_product` int(10) NOT NULL, `id_shop` int(10) NOT NULL,' . '`name` VARCHAR(200),' . 'PRIMARY KEY (`id_cdkey_group`)' . ")";
-        $statements[] = "CREATE TABLE IF NOT EXISTS `${prefix}cdkey` (" . '`id_cdkey` int(10) NOT NULL AUTO_INCREMENT,' . '`id_cdkey_group` int(10) NOT NULL, ' . '`code` VARCHAR(200),' . '`active` int(1) NOT NULL DEFAULT 1,' . 'PRIMARY KEY (`id_cdkey`)' . ")";
-        $statements[] = "CREATE TABLE IF NOT EXISTS `${prefix}cdkey_used` (" . '`id_cdkey_used` int(10) NOT NULL AUTO_INCREMENT,' . '`id_customer` int(10), `id_shop` int(10) NOT NULL,' . '`id_order` int(10),' . '`code` VARCHAR(200),' . '`name` VARCHAR(200),' . '`product` VARCHAR(200),' . '`customer` VARCHAR(200),' . '`customer_mail` VARCHAR(200),' . 'PRIMARY KEY (`id_cdkey_used`)' . ")";
+        $statements[] = "CREATE TABLE IF NOT EXISTS `${prefix}cdkey` (" . '`id_cdkey` int(10) NOT NULL AUTO_INCREMENT,' . '`id_cdkey_group` int(10) NOT NULL, ' . '`code` VARCHAR(200),' . '`cdkeypwd` VARCHAR(255),' . '`active` int(1) NOT NULL DEFAULT 1,' . 'PRIMARY KEY (`id_cdkey`)' . ")";
+        $statements[] = "CREATE TABLE IF NOT EXISTS `${prefix}cdkey_used` (" . '`id_cdkey_used` int(10) NOT NULL AUTO_INCREMENT,' . '`id_customer` int(10), `id_shop` int(10) NOT NULL,' . '`id_order` int(10),' . '`code` VARCHAR(200),' . '`cdkeypwd` VARCHAR(255),' . '`name` VARCHAR(200),' . '`product` VARCHAR(200),' . '`customer` VARCHAR(200),' . '`customer_mail` VARCHAR(200),' . 'PRIMARY KEY (`id_cdkey_used`)' . ")";
         $statements[] = "CREATE TABLE IF NOT EXISTS `" . _DB_PREFIX_ . "cdkey_group_lang` (`id_cdkey_group` int(11) NOT NULL,`id_lang` int(11) NOT NULL, `title` VARCHAR(250)) ENGINE=" . _MYSQL_ENGINE_ . " DEFAULT CHARSET=utf8;";
 
         foreach ($statements as $statement) {
