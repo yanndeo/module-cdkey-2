@@ -6,6 +6,7 @@
             <tr>
                 <th class="first_item">{l s='Product' mod='cdkeys'}</th>
                 <th class="item">{l s='Code' mod='cdkeys'}</th>
+                <th class="item">{l s='Cdkeypwd' mod='cdkeys'}</th>
             </tr>
             </thead>
             <tfoot>
@@ -13,6 +14,7 @@
                 <tr class="item">
                     <td>{$cdkey.product}</td>
                     <td>{$cdkey.code}</td>
+                    <td>{$cdkey.cdkeypwd}</td>
                 </tr>
             {/foreach}
             </tfoot>
